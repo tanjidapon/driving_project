@@ -1,0 +1,538 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*==========================================Reset Css==========================================*/
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/*first part*/
+.first_part {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+/*first part end*/
+/*
+==========================================
+    HEADER STYLE;
+==========================================
+*/
+/*navbar start*/
+.header-main {
+    position: relative;
+}
+
+.header-main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ffc20e;
+}
+
+/*last ul li start-----------------------------------------*/
+.main-menu ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+.main-menu ul li a {
+    color: #000;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 10px 0px 28px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.main-menu ul {
+    float: right;
+}
+
+.main-menu ul li a:hover {
+    color: yellow;
+    transition: .5s;
+
+}
+
+.main-menu img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+/*last ul li end-----------------------------------------*/
+.main-menu ul button {
+    color: #000;
+    background: #ffc20e;
+    border: none;
+    margin-right: 20px;
+}
+
+.main-menu ul button:hover {
+    color: #ffc20e;
+    background: #000;
+    font-weight: 700;
+    transition: .8s;
+}
+
+/*navbar end*/
+
+/*Header-Bottom */
+.header-bottom {
+    background: url(../img/banner-homepage-hero-main-73a13f8261716f9912ac07d4e0bc5ad380d0c3f807e3374271509f5057021223.png);
+    min-height: 340px;
+    width: auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.header-bottom::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.d-table {
+    height: 100%;
+    width: 100%;
+    text-align: start;
+    position: relative;
+    z-index: 2;
+}
+
+.d-table-cell {
+    vertical-align: center;
+}
+
+.header-content {
+    margin-top: 10%;
+}
+
+.header-content h4 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 35px;
+}
+
+.header-content h5 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #000;
+
+}
+
+.header-content a {
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    background: #6e1831;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header-content a:hover {
+    color: #6e1628;
+    background: #fff;
+    transition: all 0.6s ease 0s;
+    border-radius: 10px;
+}
+
+/*form part start*/
+.from-part {
+    background: #fff;
+    padding: 32px;
+    cursor: pointer;
+    margin: 50px 0px 0px 65px;
+    position: relative;
+    z-index: 2;
+}
+
+form button {
+    padding: 5px 30px 5px 30px;
+    margin-left: 10px;
+    border: none;
+    color: #000;
+    background: #ffc20e;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+form button:hover {
+    transition: .8s;
+    color: #fff;
+    background: #00b2c0;
+}
+
+form select {
+    padding: 5px 75px 5px 75px;
+    background: none;
+    border: 1px solid #ffc20e;
+    margin-bottom: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form input {
+    padding: 2px 70px 2px 70px;
+    margin-top: 10px;
+    color: #fff;
+    background: #ffc20e;
+    border: none;
+}
+
+form input:hover {
+    transition: .8s;
+    background: #fff;
+    color: #ffc20e;
+    border: 1px solid #ffc20e;
+}
+
+/*form part end*/
+/*Header-Bottom-End
+
+/*
+==========================================
+    HEADER STYLE END
+==========================================
+*/
+
+/*
+==========================================
+    Card STYLE Start
+==========================================
+*/
+
+.text-part {
+    margin-left: 18%;
+    margin-top: 10%;
+    color: #010645;
+}
+
+/*card part start*/
+.card-part {
+    text-align: center;
+    background: #ffc20e;
+    height: 100%;
+
+
+
+}
+
+.card {
+    margin: 40px 0px 20px 20px;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+}
+
+.card-part h3 {
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.card-body {
+	height: 220px;
+}
+
+.card-part button {
+    padding: 5px 80px 5px 80px;
+    border: none;
+    color: #fff;
+    background: #00b2c0;
+    margin-top: 20px;
+}
+
+.card-part button:hover {
+    transition: .8s;
+    color: #00b2c0;
+    background: #fff;
+    border: 1px solid #00b2c0;
+}
+
+/*card part end*/
+/*
+==========================================
+    CARD STYLE END
+==========================================
+*/
+/*comment part*/
+.comment-part {
+    text-align: center;
+    height: 100%;
+    margin-top: 10%;
+}
+
+.comment {
+    margin-left: 30%;
+    text-align: center;
+    border: 1px solid #ffc20e;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.comment-part h3 {
+    padding: 10px;
+    color: #ffc20e;
+    font-weight: 600;
+}
+
+.comment-body {
+    height: 200px;
+}
+
+.comment-body img {
+    margin-bottom: 20px;
+}
+
+/*comment end*/
+/*my part start---------------*/
+.my-part {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.c-part img {
+    margin-left: 17px;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 7px 4px;
+}
+}
+
+.second-part {
+    position: relative;
+    top: -59%;
+}
+
+.car-s {
+    position: relative;
+    background: #fff;
+    height: 100%;
+    width: 95%;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 7px 4px;
+}
+
+.car-body {
+    line-height: 3;
+    padding: 25px;
+}
+
+.car-body button {
+    padding: 0px 60px 0px 60px;
+    background: #00b2c0;
+    color: #fff;
+    border: none;
+}
+
+.car-body button:hover {
+    transition: .8s;
+    background: #fff;
+    border: 1px solid #00b2c0;
+    color: #00b2c0;
+}
+
+/*my part end---------------*/
+/*section part start*/
+.service-part {
+    text-align: center;
+    background: #f6f6f6;
+}
+
+.service {
+    margin: 40px 0px 20px 20px;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+}
+
+.service-part h3 {
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.service-body {
+    height: 200px;
+    padding: 20px;
+}
+
+.service-part button {
+    padding-left: 12px;
+    padding-right: 20px;
+    margin-left: 20px;
+    border: none;
+    color: #fff;
+    background: #ffc20e;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+.service-part button:hover {
+    transition: .8s;
+    color: #ffc20e;
+    background: #fff;
+    border: 1px solid #ffc20e;
+}
+
+/*section part end*/
+/*lesson part start*/
+.lesson-part {
+	text-align: center;
+	height: 100%;
+	margin-bottom: 10%;
+}
+.lesson {
+    margin: 40px 0px 20px 20px;
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.51);
+}
+
+.lesson-part h3 {
+    padding: 10px;
+    color: #000;
+    font-weight: 600;
+}
+.lesson-part p{
+    color: #ffc20e;
+}
+
+.lesson-body {
+	height: 200px;
+	padding: 20px;
+}
+
+.lesson-part button {
+	padding: 5px 80px 5px 80px;
+	border: none;
+	color: #fff;
+	background: #00b2c0;
+	margin-top: 20px;
+	float: right;
+	margin-right: 20px;
+}
+
+.lesson-part button:hover {
+    transition: .8s;
+    color: #00b2c0;
+    background: #fff;
+    border: 1px solid #00b2c0;
+}
+/*lesson part end*/
+
+.footer-basic {
+	padding: 40px 0;
+	background-color: #010645;
+	color: #fff;
+	margin-top: 77px;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
+
+/* Credit to https://epicbootstrap.com/snippets/footer-basic */
